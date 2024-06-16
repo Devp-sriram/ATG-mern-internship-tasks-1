@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 
 function Post() {
@@ -23,7 +23,7 @@ function Post() {
               write post{" "}
               <img
                 className="w-4 my-auto"
-                src="../src/assets/drop-down.png"
+                src="/drop-down.png"
                 alt=""
               />
             </span>{" "}
@@ -32,7 +32,7 @@ function Post() {
             <span className="flex gap-2 ">
               <img
                 className="w-4 my-auto invert"
-                src="../src/assets/group-ico.png"
+                src="/group-ico.png"
                 alt=""
               />
               join group{" "}
@@ -48,7 +48,7 @@ function Post() {
           Filter: all{" "}
           <img
             className="w-4 my-auto"
-            src="../src/assets/drop-down.png"
+            src="/drop-down.png"
             alt=""
           />
         </h2>
@@ -56,7 +56,7 @@ function Post() {
 
       {/*edit cursor*/}
       <div className="fixed bottom-8 right-8 lg:hidden">
-        <img src="../src/assets/pencil.png" alt="" />
+        <img src="/pencil.png" alt="" />
       </div>
 
       {/*cards */}
@@ -68,13 +68,13 @@ function Post() {
               <div>
                 <img
                   className="w-full rounded-xl"
-                  src="../src/assets/post-1.png"
+                  src="post-1.png"
                   alt=""
                 />
               </div>
               <div>
                 <div className="text-2xl font-bold flex ml-5 p-2">
-                  <img className="w-5" src="../src/assets/hand.png" alt="" />
+                  <img className="w-5" src="/hand.png" alt="" />
                   &nbsp;Article
                 </div>
 
@@ -85,7 +85,7 @@ function Post() {
                   <div className="block">
                     <img
                       className="w-8 py-8"
-                      src="../src/assets/three-dots.png"
+                      src="/three-dots.png"
                       alt=""
                     />
                   </div>
@@ -98,14 +98,14 @@ function Post() {
 
                 <div className="w-full flex justify-between p-5 gap-2">
                   <div className="flex w-full">
-                    <img src="../src/assets/Profile-1.png" alt="" />
+                    <img src="/profile-1.png" alt="" />
                     <div className="block py-1 w-full lg:flex lg:justify-between">
                       <h1 className="ml-2 lg:my-3">Sidharth koyal</h1>
                       <div className="flex ml-2 lg:my-3">
                         {" "}
                         <img
                           className="w-5 h-5"
-                          src="../src/assets/eye.png"
+                          src="/eye.png"
                           alt=""
                         />{" "}
                         1.4k views
@@ -115,7 +115,7 @@ function Post() {
                   <div className="block-inline">
                     <img
                       className="w-8 py-4 "
-                      src="../src/assets/share.png"
+                      src="/share.png"
                       alt=""
                     />
                   </div>
@@ -128,13 +128,13 @@ function Post() {
               <div>
                 <img
                   className="w-full rounded-xl"
-                  src="../src/assets/post-2.png"
+                  src="/post-2.png"
                   alt=""
                 />
               </div>
               <div>
                 <div className="text-2xl font-bold flex ml-5 p-2">
-                  <img className="w-5" src="../src/assets/hand.png" alt="" />
+                  <img className="w-5" src="/hand.png" alt="" />
                   &nbsp;Education
                 </div>
 
@@ -146,7 +146,7 @@ function Post() {
                   <div className="block">
                     <img
                       className="w-8 py-8"
-                      src="../src/assets/three-dots.png"
+                      src="/three-dots.png"
                       alt=""
                     />
                   </div>
@@ -159,14 +159,14 @@ function Post() {
 
                 <div className="w-full flex justify-between p-5 gap-2">
                   <div className="flex w-full">
-                    <img src="../src/assets/Profile-2.png" alt="" />
+                    <img src="/profile-2.png" alt="" />
                     <div className="block py-1 w-full lg:flex lg:justify-between">
                       <h1 className="ml-2 lg:my-3">Sidharth koyal</h1>
                       <div className="flex ml-2 lg:my-3">
                         {" "}
                         <img
                           className="w-5 h-5"
-                          src="../src/assets/eye.png"
+                          src="/eye.png"
                           alt=""
                         />{" "}
                         1.4k views
@@ -176,7 +176,7 @@ function Post() {
                   <div className="block-inline">
                     <img
                       className="w-8 py-4 "
-                      src="../src/assets/share.png"
+                      src="/share.png"
                       alt=""
                     />
                   </div>
@@ -189,13 +189,13 @@ function Post() {
               <div>
                 <img
                   className="w-full rounded-xl"
-                  src="../src/assets/post-3.png"
+                  src="/post-3.png"
                   alt=""
                 />
               </div>
               <div>
                 <div className="text-2xl font-bold flex ml-5 p-2">
-                  <img className="w-5" src="../src/assets/hand.png" alt="" />
+                  <img className="w-5" src="/hand.png" alt="" />
                   &nbsp;Meetup
                 </div>
 
@@ -206,7 +206,7 @@ function Post() {
                   <div className="block">
                     <img
                       className="w-8 py-8"
-                      src="../src/assets/three-dots.png"
+                      src="/three-dots.png"
                       alt=""
                     />
                   </div>
@@ -222,14 +222,14 @@ function Post() {
 
                 <div className="w-full flex justify-between p-5 gap-2">
                   <div className="flex w-full">
-                    <img src="../src/assets/Profile-3.png" alt="" />
+                    <img src="/profile-3.png" alt="" />
                     <div className="block py-1 w-full lg:flex lg:justify-between">
                       <h1 className="ml-2 lg:my-3">Sidharth koyal</h1>
                       <div className="flex ml-2 lg:my-3">
                         {" "}
                         <img
                           className="w-5 h-5"
-                          src="../src/assets/eye.png"
+                          src="/eye.png"
                           alt=""
                         />{" "}
                         1.4k views
@@ -239,7 +239,7 @@ function Post() {
                   <div className="block-inline">
                     <img
                       className="w-8 py-4 "
-                      src="../src/assets/share.png"
+                      src="/share.png"
                       alt=""
                     />
                   </div>
@@ -251,7 +251,7 @@ function Post() {
             <div className="rounded-xl m-4 border-2 border-gray-300">
               <div>
                 <div className="text-2xl font-bold flex ml-5 p-2">
-                  <img className="w-5" src="../src/assets/hand.png" alt="" />
+                  <img className="w-5" src="/hand.png" alt="" />
                   &nbsp;Job
                 </div>
 
@@ -260,7 +260,7 @@ function Post() {
                   <div className="block">
                     <img
                       className="w-8 py-8"
-                      src="../src/assets/three-dots.png"
+                      src="/three-dots.png"
                       alt=""
                     />
                   </div>
@@ -276,14 +276,14 @@ function Post() {
 
                 <div className="w-full flex justify-between p-5 gap-2">
                   <div className="flex w-full">
-                    <img src="../src/assets/Profile-2.png" alt="" />
+                    <img src="/profile-2.png" alt="" />
                     <div className="block py-1 w-full lg:flex lg:justify-between">
                       <h1 className="ml-2 lg:my-3">Sidharth koyal</h1>
                       <div className="flex ml-2 lg:my-3">
                         {" "}
                         <img
                           className="w-5 h-5"
-                          src="../src/assets/eye.png"
+                          src="/eye.png"
                           alt=""
                         />{" "}
                         1.4k views
@@ -293,7 +293,7 @@ function Post() {
                   <div className="block-inline">
                     <img
                       className="w-8 py-4 "
-                      src="../src/assets/share.png"
+                      src="/share.png"
                       alt=""
                     />
                   </div>
@@ -310,7 +310,7 @@ function Post() {
             <div className="block my-auto">
               <img
                 className="w-8 h-auto"
-                src="../src/assets/location (1).png"
+                src="/location (1).png"
                 alt=""
               />
             </div>
@@ -319,14 +319,14 @@ function Post() {
               type="text"
               placeholder=" Enter your location"
             />
-            <img src="../src/assets/edit.png" alt="" />
+            <img src="/edit.png" alt="" />
           </div>
 
           <div className="w-full flex rounded-2xl border-b-2 border-gray-300 mt-2">
             <div className="block mt-1.5 ml-1">
               <img
                 className="w-8 h-auto"
-                src="../src/assets/caution.png"
+                src="/caution.png"
                 alt=""
               />
             </div>
@@ -340,7 +340,7 @@ function Post() {
             <div className="flex ">
               <img
                 className="my-auto block w-8 h-auto"
-                src="../src/assets/like.png"
+                src="/like.png"
                 alt=""
               />
               <h2 className="text-sm ml-2 p-2"> RECOMMENDED GROUPUS </h2>
@@ -353,7 +353,7 @@ function Post() {
               <div className="block my-auto">
                 <img
                   className="w-16 h-auto"
-                  src="../src/assets/profile-1.png"
+                  src="/profile-1.png"
                   alt=""
                 />
               </div>
@@ -369,7 +369,7 @@ function Post() {
               <div className="block my-auto">
                 <img
                   className="w-16 h-auto"
-                  src="../src/assets/profile-2.png"
+                  src="/profile-2.png"
                   alt=""
                 />
               </div>
@@ -385,7 +385,7 @@ function Post() {
               <div className="block my-auto">
                 <img
                   className="w-16 h-auto"
-                  src="../src/assets/profile-3.png"
+                  src="/profile-3.png"
                   alt=""
                 />
               </div>

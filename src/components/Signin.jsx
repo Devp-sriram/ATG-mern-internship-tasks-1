@@ -14,7 +14,7 @@ function OverlayComponent({onClose}) {
             <div className="w-full p-5 border-b-2 border-gray-400 flex justify-between">
                 <p className="text-green-700 block text-sm bg-green-100">Let's learn ,share & inspire each others with our passion of computer Enginnering, Sign up now</p>
                 <button onClick={onClose} className="text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-200 rounded-md">
-                <img src="../src/assets/cross.png" alt="" />
+                <img src="/cross.png" alt="" />
               </button>
             </div>
             <div className="flex justify-between items-center my-4">
@@ -58,20 +58,20 @@ function OverlayComponent({onClose}) {
                 />
                  <img
                   className="absolute bottom-12 right-2"
-                  src="../src/assets/eye.png" alt="" />
+                  src="/eye.png" alt="" />
               </div>
               <div className="my-2 w-full ">
               <button className="w-full my-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-2 focus:outline-none focus:shadow-outline">
                 Create Account
               </button>
-              <button className='w-full my-2 mx-auto'><img className="mx-auto" src="../src/assets/fb.png" alt="" /></button>
-              <button className='w-full my-2 mx-auto' ><img className="mx-auto" src="../src/assets/google.png" alt="" /></button>
+              <button className='w-full my-2 mx-auto'><img className="mx-auto" src="/fb.png" alt="" /></button>
+              <button className='w-full my-2 mx-auto' ><img className="mx-auto" src="/google.png" alt="" /></button>
               </div>
             </div>
           
           {/*right*/}
             <div className="w-1/2 hidden md:block">
-              <img src="../src/assets/signin.png" alt="" />
+              <img src="/signin.png" alt="" />
               <p className="text-[12px]">by signing up, you are accepting our terms and conditions ,privacy policy</p>
             </div>
 
